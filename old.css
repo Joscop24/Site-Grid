@@ -188,8 +188,8 @@ header {
     grid-row: 2;
 }
 
-/* 
-/* GESTIONS DES IMAGES DES WRAPPERS 
+
+/* GESTIONS DES IMAGES DES WRAPPERS */
 
 .img1 {
     height: 70vh;
@@ -219,7 +219,7 @@ header {
     background-image: url("/assets/images/appli.jpeg");
 }
 
-/* GESTION TEXTES ONE & TWO 
+/* GESTION TEXTES ONE & TWO */
 
 .one {
     align-content: center;
@@ -228,7 +228,7 @@ header {
 
 
 
-/*RESPONSIVE
+/*RESPONSIVE*/
 
 
 @media screen and (max-width: 900px) {
@@ -241,7 +241,7 @@ header {
     }
 
 
-    /* RESPONSIVE HAMBURGER 
+    /* RESPONSIVE HAMBURGER */
 
 
     .menu-button-container {
@@ -290,7 +290,7 @@ header {
 
 
 
-    /* RESPONSIVE HEADER 
+    /* RESPONSIVE HEADER */
 
     header {
         height: 50vh;
@@ -301,7 +301,7 @@ header {
     }
 
 
-    /* RESPONSIVE WRAPPER 
+    /* RESPONSIVE WRAPPER */
 
     .wrapper {
         display: grid;
@@ -309,7 +309,7 @@ header {
     }
 
 
-    /* RESPONSIVE IMAGES 
+    /* RESPONSIVE IMAGES */
 
     .img1 {
         height: 50vh;
@@ -337,7 +337,7 @@ header {
         background-size: cover;
     }
 
-    /* RESPONSIVE TEXT H3 H2 P 
+    /* RESPONSIVE TEXT H3 H2 P */
 
     h3 {
         text-align: center;
