@@ -237,20 +237,24 @@ body {
     }
 
     h2 {
-        font-size: 18px;
-        text-align: center;
-    }
-
-    h3 {
         font-size: 16px;
         text-align: center;
     }
 
-    p {
+    h3 {
         font-size: 14px;
         text-align: center;
     }
 
+    p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    /************************************/
+    /* GLOBAL */
+
+    .mg-top{margin-top: 5px;}
 
 
     /************************************/
@@ -298,7 +302,7 @@ body {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: auto auto;
-        grid-template-areas: "img2";       
+        grid-template-areas:"txt2"   
     }
 
 
@@ -324,8 +328,8 @@ body {
 
     .img2 {
         /* margin-top: 5px; */
-        height: 80vh;
-        width: 80vw;
+        height: 40vh;
+        width: auto;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -334,7 +338,7 @@ body {
 
     .img3 {
         height: auto;
-        width: 70vw;
+        width: auto;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
